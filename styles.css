@@ -1,0 +1,42 @@
+body {
+	background-image: url("BG.jpg");
+}
+
+h1 {
+	font-family: Helvetica;
+}
+table {
+  border-style: dotted;
+  padding: 30px;
+}
+
+#external-link-p {
+	text-align: center;
+}
+
+.Images{
+	margin-left: 80px;
+}
+
+p{
+	margin-top: 40px;
+}
+
+a:visited {
+	color: green;
+}
+
+footer {
+	text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+	img {
+		width: 50%;
+	}
+	body {
+		font-size: 15px;
+	}
+}
+
+
