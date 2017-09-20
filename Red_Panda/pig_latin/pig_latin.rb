@@ -23,20 +23,20 @@ def change_sentence_into_pig_latin(sentence)
     sentence = sentence.split(' ')
     new_sentence = []
     sentence.map do |words|
-       new_sentence<< create_pig_latin_word(words)
+       new_sentence << create_pig_latin_word(words)
     end
-    new_sentence
+    new_sentence.join(' ')
 end
 
 def display_sentence(sentence)
-  "Your original sentence was '#{sentence}' but now it's '#{change_sentence_into_pig_latin(sentence).join(' ')}'"
+  p "Your original sentence was '#{sentence}' but now it's '#{change_sentence_into_pig_latin(sentence)}'"
 end
 
 
-  print_out_word =  display_word("Hello")
-  puts print_out_word
-  print_out_sentence = display_sentence("Hello to our world")
-  puts print_out_sentence
+  # print_out_word =  display_word("Hello")
+  # puts print_out_word
+   # print_out_sentence = display_sentence("Hello to our world")
+   # puts print_out_sentence
 
 
 
